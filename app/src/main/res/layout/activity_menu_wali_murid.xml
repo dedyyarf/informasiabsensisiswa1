@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.dedyyarf.informasiabsensisiswa.MenuWaliMurid">
+
+
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:orientation="horizontal"
+       android:layout_marginTop="230dp">
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/btninfonilai"
+          android:background="#066e8a"
+          android:drawableTop="@drawable/list"
+          android:paddingBottom="5dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="20dp"
+          android:paddingTop="8dp"
+          android:text="\ninfo nilai"
+          android:textColor="#fff"/>
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/btninfopresensi"
+          android:layout_marginLeft="25dp"
+          android:background="#066e8a"
+          android:drawableTop="@drawable/ceklist"
+          android:paddingBottom="5dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="8dp"
+          android:text="\ninfo presensi"
+          android:textColor="#fff"/>
+
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:orientation="horizontal"
+       android:layout_marginTop="16dp">
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/btndftguru"
+          android:background="#066e8a"
+          android:drawableTop="@drawable/profile1"
+          android:paddingBottom="5dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="20dp"
+          android:paddingTop="8dp"
+          android:text="\ndaftar guru"
+          android:textColor="#fff"/>
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/btnlogout"
+          android:layout_marginLeft="25dp"
+          android:background="#066e8a"
+          android:drawableTop="@drawable/logout"
+          android:paddingBottom="5dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="8dp"
+          android:text="\nlogout"
+          android:textColor="#fff"/>
+
+   </LinearLayout>
+
+
+</LinearLayout>
